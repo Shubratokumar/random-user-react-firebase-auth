@@ -7,7 +7,7 @@ const SingleUsers = ({user, children}) => {
 
     return (
         <div className='col-4 gy-1'>
-            <div className="card shadow p-3 mb-5 bg-body rounded">
+            <div className="card shadow p-3 mb-5 bg-body rounded-3">
                 <div className="card-body">
                     <h5 className="card-title">Name : {name}</h5>
                     <p className="card-text">Username : {username}</p>                   

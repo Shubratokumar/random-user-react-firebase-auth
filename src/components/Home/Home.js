@@ -18,7 +18,9 @@ const Home = () => {
                     usersData?.map(user => <SingleUsers user= {user} key={user.id}></SingleUsers>)
                 }
             </div>
-            <Link to="/users" className='text-decoration-none'>Load More...</Link>
+            <button className='btn btn-outline-info my-3'>
+                <Link to="/users" className='text-decoration-none text-dark'>Load More...</Link>
+            </button>
         </div>
     );
 };
